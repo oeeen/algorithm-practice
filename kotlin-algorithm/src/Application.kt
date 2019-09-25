@@ -1,4 +1,4 @@
 fun main() {
-    val chooseCenter = ChooseCenter()
-    println(chooseCenter.solution("test"))
+    val waterMelon = WaterMelon()
+    println(waterMelon.solution(3))
 }
