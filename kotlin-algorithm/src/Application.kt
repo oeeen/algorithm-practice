@@ -1,4 +1,4 @@
 fun main() {
-    val waterMelon = WaterMelon()
-    println(waterMelon.solution(3))
+    val Sum = Sum()
+    println(Sum.solution(5, 3))
 }
