@@ -1,5 +1,4 @@
 fun main() {
-    val kim = Kim()
-    val solution = kim.solution(arrayOf("Jane", "Kim"))
-    print(solution)
+    val sevenDwarf = SevenDwarf()
+    val solution = sevenDwarf.solution()
 }
