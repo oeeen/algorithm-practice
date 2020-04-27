@@ -1,4 +1,5 @@
 fun main() {
-    val reverse = Reverse()
-    val solution = reverse.solution()
+    val makeOne = MakeOne()
+    val solution = makeOne.solution()
+    println(solution)
 }
