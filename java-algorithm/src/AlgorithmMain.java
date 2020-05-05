@@ -1,9 +1,9 @@
-import programmers.kakaoblind.StringCompression;
+import programmers.kakaoblind.ParenthesisConversion;
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        StringCompression sol = new StringCompression();
+        ParenthesisConversion sol = new ParenthesisConversion();
 
-        System.out.println(sol.solution("xababcdcdababcdcd"));
+        System.out.println(sol.solution("()))((()"));
     }
 }
