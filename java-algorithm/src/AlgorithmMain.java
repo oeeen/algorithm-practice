@@ -1,9 +1,12 @@
-import programmers.kakao2019intern.CraneGame;
+import programmers.kakao2019intern.Tuple;
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        CraneGame sol = new CraneGame();
+        Tuple sol = new Tuple();
 
-        System.out.println(sol.solution(new int[][]{{0, 0, 0, 0, 0}, {0, 0, 1, 0, 3}, {0, 2, 5, 0, 1}, {4, 2, 4, 4, 2}, {3, 5, 1, 3, 1}}, new int[]{1, 5, 3, 5, 1, 2, 1, 4}));
+        int[] solution = sol.solution("{{2},{2,1},{2,1,3},{2,1,3,4}}");
+        for (int i : solution) {
+            System.out.print(i + " ");
+        }
     }
 }
