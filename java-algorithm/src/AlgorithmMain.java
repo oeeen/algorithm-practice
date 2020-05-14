@@ -1,9 +1,9 @@
-import programmers.GymSuit;
+import programmers.Tower;
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        GymSuit sol = new GymSuit();
+        Tower sol = new Tower();
 
-        System.out.println(sol.solution(7, new int[]{3, 5}, new int[]{4, 2}));
+        System.out.println(sol.solution(new int[]{6, 9, 5, 7, 4}));
     }
 }
