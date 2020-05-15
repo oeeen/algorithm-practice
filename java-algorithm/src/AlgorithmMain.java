@@ -1,9 +1,9 @@
-import programmers.StockPrice;
+import programmers.OneTwoFour;
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        StockPrice sol = new StockPrice();
+        OneTwoFour sol = new OneTwoFour();
 
-        System.out.println(sol.solution(new int[]{1, 2, 3, 2, 3}));
+        System.out.println(sol.solution(3));
     }
 }
