@@ -1,9 +1,9 @@
-import etc.BetterEbay5;
+import leetcode.TwoSum;
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        BetterEbay5 sol = new BetterEbay5();
+        TwoSum sol = new TwoSum();
 
-        System.out.println(sol.solution("", new String[]{"P a", "P b", "L", "I c", "I d"}));
+        System.out.println(sol.twoSum(new int[]{2, 7, 11, 15}, 9));
     }
 }
