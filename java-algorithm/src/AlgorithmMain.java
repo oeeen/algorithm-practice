@@ -1,10 +1,10 @@
-import leetcode.RomanToInteger;
+import leetcode.LongestCommonPrefix;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        RomanToInteger sol = new RomanToInteger();
+        LongestCommonPrefix sol = new LongestCommonPrefix();
 
-        System.out.println(sol.romanToInt("IV"));
+        System.out.println(sol.longestCommonPrefix(new String[]{"flower", "flow", "flight"}));
     }
 }
