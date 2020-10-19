@@ -1,10 +1,10 @@
-import leetcode.PalindromeNumber;
+import leetcode.RomanToInteger;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        PalindromeNumber sol = new PalindromeNumber();
+        RomanToInteger sol = new RomanToInteger();
 
-        System.out.println(sol.isPalindrome(1234521));
+        System.out.println(sol.romanToInt("IV"));
     }
 }
