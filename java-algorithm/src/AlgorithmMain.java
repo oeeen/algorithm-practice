@@ -1,9 +1,10 @@
-import programmers.Carpet;
+import leetcode.ReverseInteger;
+
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        Carpet sol = new Carpet();
+        ReverseInteger sol = new ReverseInteger();
 
-        System.out.println(sol.solution(10, 2));
+        System.out.println(sol.reverse(-2_112_345_678));
     }
 }
