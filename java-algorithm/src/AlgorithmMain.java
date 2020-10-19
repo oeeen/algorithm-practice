@@ -1,10 +1,10 @@
-import leetcode.ReverseInteger;
+import leetcode.PalindromeNumber;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        ReverseInteger sol = new ReverseInteger();
+        PalindromeNumber sol = new PalindromeNumber();
 
-        System.out.println(sol.reverse(-2_112_345_678));
+        System.out.println(sol.isPalindrome(1234521));
     }
 }
