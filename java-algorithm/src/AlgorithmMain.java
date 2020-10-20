@@ -1,10 +1,10 @@
-import leetcode.LongestCommonPrefix;
+import leetcode.ValidParentheses;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        LongestCommonPrefix sol = new LongestCommonPrefix();
+        ValidParentheses sol = new ValidParentheses();
 
-        System.out.println(sol.longestCommonPrefix(new String[]{"flower", "flow", "flight"}));
+        System.out.println(sol.isValid("[)"));
     }
 }
