@@ -1,10 +1,10 @@
-import leetcode.RemoveElement;
+import leetcode.ImplementStrStr;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        RemoveElement sol = new RemoveElement();
+        ImplementStrStr sol = new ImplementStrStr();
 
-        System.out.println(sol.removeElement(new int[]{3, 2, 2, 3}, 3));
+        System.out.println(sol.strStr("a", "a"));
     }
 }
