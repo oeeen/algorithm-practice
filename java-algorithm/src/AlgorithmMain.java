@@ -1,10 +1,10 @@
-import leetcode.RemoveDuplicatesFromSortedArray;
+import leetcode.RemoveElement;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        RemoveDuplicatesFromSortedArray sol = new RemoveDuplicatesFromSortedArray();
+        RemoveElement sol = new RemoveElement();
 
-        System.out.println(sol.removeDuplicates(new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}));
+        System.out.println(sol.removeElement(new int[]{3, 2, 2, 3}, 3));
     }
 }
