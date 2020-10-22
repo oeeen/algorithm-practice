@@ -1,10 +1,10 @@
-import leetcode.SearchInsertPosition;
+import leetcode.CountAndSay;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        SearchInsertPosition sol = new SearchInsertPosition();
+        CountAndSay sol = new CountAndSay();
 
-        System.out.println(sol.searchInsert(new int[]{1, 3, 5, 6}, 7));
+        System.out.println(sol.countAndSay(5));
     }
 }
