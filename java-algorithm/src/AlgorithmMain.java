@@ -1,10 +1,10 @@
-import leetcode.ImplementStrStr;
+import leetcode.SearchInsertPosition;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        ImplementStrStr sol = new ImplementStrStr();
+        SearchInsertPosition sol = new SearchInsertPosition();
 
-        System.out.println(sol.strStr("a", "a"));
+        System.out.println(sol.searchInsert(new int[]{1, 3, 5, 6}, 7));
     }
 }
