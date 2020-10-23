@@ -1,10 +1,10 @@
-import leetcode.MaximumSubArray;
+import leetcode.LengthOfLastWord;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        MaximumSubArray sol = new MaximumSubArray();
+        LengthOfLastWord sol = new LengthOfLastWord();
 
-        System.out.println(sol.maxSubArray(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4}));
+        System.out.println(sol.lengthOfLastWord(""));
     }
 }
