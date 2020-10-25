@@ -1,11 +1,10 @@
-import leetcode.PlusOne;
+import leetcode.AddBinary;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        PlusOne sol = new PlusOne();
+        AddBinary sol = new AddBinary();
 
-//        System.out.println(sol.plusOne(new int[]{9, 9, 9}));
-        sol.plusOne(new int[]{9, 9, 9});
+        System.out.println(sol.addBinary("1010", "1011"));
     }
 }
