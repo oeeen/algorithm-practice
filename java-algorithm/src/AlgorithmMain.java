@@ -1,10 +1,11 @@
 import leetcode.AddBinary;
+import leetcode.SqrtX;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        AddBinary sol = new AddBinary();
+        SqrtX sol = new SqrtX();
 
-        System.out.println(sol.addBinary("1010", "1011"));
+        System.out.println(sol.mySqrt(8));
     }
 }
