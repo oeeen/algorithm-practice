@@ -1,11 +1,10 @@
-import leetcode.AddBinary;
-import leetcode.SqrtX;
+import leetcode.ClimbingStairs;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        SqrtX sol = new SqrtX();
+        ClimbingStairs sol = new ClimbingStairs();
 
-        System.out.println(sol.mySqrt(8));
+        System.out.println(sol.climbStairs(3));
     }
 }
