@@ -1,10 +1,10 @@
-import leetcode.ClimbingStairs;
+import leetcode.RemoveDuplicate;
 
 
 public class AlgorithmMain {
     public static void main(String[] args) {
-        ClimbingStairs sol = new ClimbingStairs();
+        RemoveDuplicate sol = new RemoveDuplicate();
 
-        System.out.println(sol.climbStairs(3));
+        System.out.println(sol.deleteDuplicates(new RemoveDuplicate.ListNode(1, new RemoveDuplicate.ListNode(1, new RemoveDuplicate.ListNode(2)))));
     }
 }
